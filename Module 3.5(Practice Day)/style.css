@@ -1,0 +1,67 @@
+.carousel-img{
+    height:55vh;
+}
+.line{
+    border: 1px dashed gray;
+    margin:20px
+}
+.contact-left-card1{
+    background-color: rgba(0,255,0,0.1) !important;
+    border:none !important
+}
+.contact-left-card2{
+    background-color: rgba(218, 231, 39, 0.1) !important;
+    border:none !important
+}
+.contact-left-card3{
+    background-color: rgba(0, 183, 255, 0.1) !important;
+    border:none !important
+}
+.contact-left{
+    padding-left: 3% !important;
+    padding-right: 2% !important;
+}
+/* .programs{
+    display: flex;
+    
+    align-items:flex-end;
+} */
+.prog-btn{
+    width:30% !important;
+    margin-left: 2%;
+}
+
+.product-container{
+    /* margin-left: 12% !important; */
+    /* margin-right: 5% !important; */
+}
+
+@media only screen and (min-width:400px) and (max-width:767px){
+    .price-and-delivery{
+        display:flex;
+        flex-direction: column;
+    }
+    .accordion-all{
+        display:flex;
+        flex-direction: column;
+    }
+    footer{
+        display:flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .company-support{
+        width:100%;
+        margin:auto
+    }
+    .services{
+        margin:auto;
+        margin-top:2%
+    }
+    .footer-mail{
+        justify-content: center;
+    }
+    .footer-number{
+        justify-content: center;
+    }
+}

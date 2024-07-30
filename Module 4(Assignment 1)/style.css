@@ -1,0 +1,44 @@
+/* .whole{
+    width:99%
+} */
+.logo-img{
+    width:20%;
+}
+.resume-download{
+    border:none;
+    border-radius:5%;
+    background-color: rgb(33, 175, 175);
+}
+.gias-vai-img{
+    width:70%;
+    margin-left:17%
+}
+.name-email{
+    color:white;
+    border:1px solid gray
+}
+.querybox{
+    color:white;
+    border:1px solid gray;
+    width:55%;
+    height:10vh
+}
+.submit-btn{
+    width: 20vw;
+    color:aqua
+}
+.meta-img{
+    height:30vh;
+}
+.contact-form{
+    box-shadow: 3px 3px 20px gray;
+}
+.textbox{
+    width:50%;
+    background-color: rgba(0, 0, 0, 0)
+}
+@media only screen and (min-width:400px) and (max-width:767px){
+    .textbox{
+        width:80%
+    }
+}
